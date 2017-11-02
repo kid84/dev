@@ -4,7 +4,9 @@
   "description": "",
   "main": "./source/javascripts/all.js",
   "scripts": {
-    "test": "./bin/lint"
+    "test": "./bin/lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,11 @@
     "exports-loader": "^0.6.2",
     "fastclick": "^1.0.6",
     "imports-loader": "^0.6.4",
-    "webpack": "^1.10.5"
+    "webpack": "^1.10.5",
+    "@storybook/vue": "^3.2.13",
+    "@storybook/addon-actions": "^3.2.13",
+    "@storybook/addon-links": "^3.2.13",
+    "babel-preset-vue": "^1.2.1"
   },
   "dependencies": {
     "react": "^16.0.0",
